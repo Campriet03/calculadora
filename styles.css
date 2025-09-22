@@ -1,0 +1,70 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(63, 125, 219);
+    padding: 20px;
+    border: 2px solid black;
+    gap: 20px;
+    border-radius: 20px;
+    width: 500px;
+    height: 450px;
+    margin: 100px auto;
+    box-shadow: 4px 4px 8px #000000;
+}
+
+.Titulo{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.input{
+    display: flex;
+    gap: 10px;
+}
+
+.botones{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.boton{
+    background-color: rgb(7, 88, 181);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.boton:hover{
+    background-color: rgb(13, 152, 212);
+    color: white;
+    transition: 0.3s;
+}
+
+.resultado{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    background-color: rgb(13, 152, 212);
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.caja{
+    background-color: beige;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 16px;
+}
